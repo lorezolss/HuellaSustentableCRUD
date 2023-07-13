@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: roboto, arial, sans-serif;
+    color: azure;
+}
+
+.sustentable{
+    color: green;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 30px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("inventos.jpg"); 
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("FB_IMG_1686510428545.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+
+.contenedor h1{
+    margin-bottom: 20px;
+}
+
+.texto-arriba{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.topnav {
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+    color: green;
+    font-weight: bolder;
+  }
+
+  #formulario, #app, .listado {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 50px;
+    padding: 25px;
+    min-width: 30%;
+    max-height: 90%;
+    position: absolute;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+
+  }
+
+  .listado {
+    width: auto;
+  }
+
+  .listado .contenedor-centrado{
+    justify-content: center };
+  
+#app table {
+    width: 60%;
+}
+
+  #formulario label,
+  #app label{
+    line-height: 2rem;
+
+  }
+
+  #formulario input,
+  #app input{
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .final, .contenedor-centrado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+
+  a {
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: #f2f2f2;
+    background: rgba(0, 0, 0, 0.5);
+    
+  }
+
+  a:hover{
+    font-size: larger;
+  }
+
+  button, .final .bt-carrito, .bt-eliminar {
+    margin-top: 30px;
+    min-width: 50%;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    overflow: clip;
+    outline: none;
+    background-color: green;
+    color: #f2f2f2;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+    display: flex;
+    
+  }
+
+  button:hover {
+    background-color: darkgreen;
+  }
+
+  button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .masmenos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-left: 15px;
+    justify-content: space-around;
+    gap: 2px;
+
+  }
+
+  .bt-mas {
+    font-size: 16px;
+    padding: 5px;
+    float: left;
+    margin: 2px;
+    gap: 5px;
+  }
+
+  .bt-eliminar {
+    margin: 5px;
+    font-size: 12px;
+    padding:5px 10px;
+  }
+
+ 
+
+  
+  
